@@ -1,0 +1,126 @@
+
+ИСП-21@DESKTOP-45PT38E MINGW64 /c/Mrgit (master)
+$ touch todo.txt
+
+ИСП-21@DESKTOP-45PT38E MINGW64 /c/Mrgit (master)
+$ touch readme.txt
+
+ИСП-21@DESKTOP-45PT38E MINGW64 /c/Mrgit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        1/
+        dist/
+        readme.txt
+        todo.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ИСП-21@DESKTOP-45PT38E MINGW64 /c/Mrgit (master)
+$ git add*
+git: 'add*' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+ИСП-21@DESKTOP-45PT38E MINGW64 /c/Mrgit (master)
+$ git add *
+
+ИСП-21@DESKTOP-45PT38E MINGW64 /c/Mrgit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   1/1.txt
+        new file:   readme.txt
+        new file:   todo.txt
+
+
+ИСП-21@DESKTOP-45PT38E MINGW64 /c/Mrgit (master)
+$ git add --all
+
+ИСП-21@DESKTOP-45PT38E MINGW64 /c/Mrgit (master)
+$ git add *
+
+
+ИСП-21@DESKTOP-45PT38E MINGW64 /c/Mrgit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   1/1.txt
+        new file:   readme.txt
+        new file:   todo.txt
+
+
+ИСП-21@DESKTOP-45PT38E MINGW64 /c/Mrgit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   1/1.txt
+        new file:   readme.txt
+        new file:   todo.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   1/1.txt
+        modified:   todo.txt
+
+
+ИСП-21@DESKTOP-45PT38E MINGW64 /c/Mrgit (master)
+$ git add --all
+
+ИСП-21@DESKTOP-45PT38E MINGW64 /c/Mrgit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   1/1.txt
+        new file:   readme.txt
+        new file:   todo.txt
+
+
+ИСП-21@DESKTOP-45PT38E MINGW64 /c/Mrgit (master)
+$ git commit -m "My sick commit"
+[master e6f5800] My sick commit
+ 1 file changed, 1 insertion(+)
+
+ИСП-21@DESKTOP-45PT38E MINGW64 /c/Mrgit (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   todo.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+ИСП-21@DESKTOP-45PT38E MINGW64 /c/Mrgit (master)
+$ git add *
+
+ИСП-21@DESKTOP-45PT38E MINGW64 /c/Mrgit (master)
+$ git commit -m "Me nerd commit"
+[master 2e686f3] Me nerd commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+
+
+

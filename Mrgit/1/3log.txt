@@ -1,0 +1,19 @@
+ИСП-21@DESKTOP-45PT38E MINGW64 /c/Mrgit (master)
+$ git log
+commit 2e686f3ca66446afef128a073a33568884bbd98b (HEAD -> master)
+Author: Dmitri <dima.pospelov.2005@mail.ru>
+Date:   Tue Dec 12 09:50:22 2023 +0300
+
+    Me nerd commit
+
+commit e6f5800ee6c82649c8bdb2d1c8d8f24bf4c7c782
+Author: Dmitri <dima.pospelov.2005@mail.ru>
+Date:   Tue Dec 12 09:49:24 2023 +0300
+
+    My sick commit
+
+commit 1556d8be25c301899128aef00e1a1b549c5c5efc
+Author: Dmitri <dima.pospelov.2005@mail.ru>
+Date:   Tue Dec 12 09:43:50 2023 +0300
+
+    My first Cummit:)
